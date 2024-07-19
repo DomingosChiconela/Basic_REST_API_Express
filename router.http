@@ -1,0 +1,26 @@
+GET  http://localhost:3333/users
+
+###
+GET  http://localhost:3333/user?name=domingos
+
+###
+POST   http://localhost:3333/users
+Content-Type: application/json
+
+{"name" : "pedro",
+"email":"pedro@gmail.com",
+"age":21
+}
+###
+DELETE http://localhost:3333/users/d0fdd475-2cbf-4937-b208-e8ce1e40242d
+
+
+
+###
+PUT  http://localhost:3333/users/9bcd8418-a9ac-4e79-b644-319c2642d926
+Content-Type: application/json
+
+{"name" : "pedro chimuze",
+"email":"pedro@gmail.com",
+"age":17
+}
